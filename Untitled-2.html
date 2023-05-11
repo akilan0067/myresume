@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #b28b20;
+  color: rgb(21, 21, 21);
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #F0FFFF;
+  color: rgb(235, 187, 187);
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f10b0b;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MYBIO</h1>
+  
+</div>
+
+<div class="row">
+  <div class="side">
+    
+  
+  <div class="main">
+    <h2>INTRODUCTION</h2>
+           <p> Name: AKILAN A </p>
+           <p>D.O.B:29/05/2005 </p>
+          <p>Email:akilanr05@gamil.com</P>
+        <br>
+    <h2>EDUCATION:</h2>    
+    <p>10th qualification:79%</p>
+   <p>12th qualification:90%</p>
+   <p>Currently studying:AI and DS sem-II </p>
+   <br>
+   <h3>Skills:<h3>
+   <p>Python</p>
+   <p>Html</p>
+<br>
+    <h4>CERTIFICATES</h4>
+   
+    <p>basic python in Udemy</p>
+    <p>4 stars in Hackerrank</p>
+    <p>python contest in Techgig</p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
